@@ -1,4 +1,8 @@
-/* 🎨 CHANGE BACKGROUND COLOR HERE */
+@font-face {
+  font-family: "dogica";
+  src: url("./assets/fonts/dogicapixel.ttf") format("truetype");
+}
+
 .container {
   background-color: #dda8b1; /* <-- change this */
   height: 100vh;
@@ -44,4 +48,10 @@
   width: 100px;
   height: auto;
   display: block;
+}
+
+.yay-text {
+  font-family: "dogica";
+  font-size: 36px; /* slightly smaller */
+  color: #7F5E44;
 }
