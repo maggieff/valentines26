@@ -1,0 +1,33 @@
+/* 🎨 CHANGE BACKGROUND COLOR HERE */
+.container {
+  background-color: #ffc0cb; /* <-- change this */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.big-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.big-button img {
+  width: 300px;
+}
+
+.second-screen {
+  text-align: center;
+}
+
+.second-image {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.small-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
