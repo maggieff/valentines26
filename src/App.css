@@ -1,6 +1,6 @@
 /* 🎨 CHANGE BACKGROUND COLOR HERE */
 .container {
-  background-color: #ffc0cb; /* <-- change this */
+  background-color: #dda8b1; /* <-- change this */
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@
 }
 
 .big-button img {
-  width: 300px;
+  width: 500px;
 }
 
 .second-screen {
@@ -22,7 +22,7 @@
 }
 
 .second-image {
-  width: 400px;
+  width: 500px;
   margin-bottom: 20px;
 }
 
@@ -30,4 +30,18 @@
   display: flex;
   justify-content: center;
   gap: 15px;
+}
+
+.small-btn {
+  all: unset;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small-btn img {
+  width: 100px;
+  height: auto;
+  display: block;
 }
